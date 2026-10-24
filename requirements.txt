@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic[email]
+pwdlib[argon2] # password hashing
+PyJWT[crypto] # JWT signing/verification
+python-multipart # only if using form fields
+pytest
+httpx
+pydantic-settings
+python-multipart
